@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkeyup</title>
+</head>
+<body>
+
+    <!-- Onkeyup attribute will hwlp me to make my letters capital  -->
+<textarea placeholder="Please write here something..." onkeyup="myFunction()" id="demo" cols="30" rows="10"></textarea>
+
+
+<!-- my function is making directly my letters capital -->
+<script>
+function myFunction(){
+    x = document.getElementById('demo');
+    x.value = x.value.toUpperCase();
+}
+
+</script>
+
+
+
+
+    
+</body>
+</html>
